@@ -1,5 +1,5 @@
 # cmsc388T-web-template
-## Part1
+## Part1: Hosting Website On Github Pages
 ### 1. Custom changes: 
   - **Name:** adding my name to the html file
   - **Profile Picture:** changing the profile photo to my own photo
