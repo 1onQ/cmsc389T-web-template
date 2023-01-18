@@ -12,4 +12,5 @@
 ### 1.2 Github Pages Site
 https://1onq.github.io/cmsc389T-web-template/
 
+## Part 2: Dockerizing WebApp
 
