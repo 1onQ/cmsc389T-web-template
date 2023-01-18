@@ -2,7 +2,7 @@
 
 * {
     box-sizing: border-box;
-    font-family: Raleway;
+    font-family: var(--bs-font-monospace);
     color: rgb(73, 73, 73);
 }
 
@@ -43,7 +43,7 @@ html, body {
 }
 
 .main-header {
-    background-color: red;
+    background-color: #50874d;
     background-image: url('https://www.databankimx.com/wp-content/uploads/2015/07/Microsoft-Cloud-Offerings.jpg');
     background-blend-mode: multiply;
     background-size: cover;
@@ -57,7 +57,7 @@ html, body {
 }
 
 .res-section-header {
-    color: white;
+    color: rgb(160, 20, 20);
     font-weight: 550;
     text-align: center;
     padding-bottom: 0.5em;
@@ -89,7 +89,7 @@ html, body {
 
 .section-header {
     font-weight: 700;
-    color: #333;
+    color: #50874d;
     text-align: center;
     font-size: 2em;
 }
