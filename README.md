@@ -1,6 +1,6 @@
 # cmsc388T-web-template
 ## 1. Custom changes: 
-**Name**
+- **Name**
 - **Profile Picture**
 - **Introduction**
 - **Relevant Info**
