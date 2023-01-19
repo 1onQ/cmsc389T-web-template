@@ -13,4 +13,16 @@
 https://1onq.github.io/cmsc389T-web-template/
 
 ## Part 2: Dockerizing WebApp
+Tested docker configuration by running:
+```bash
+docker build -t node-web-app .
+docker run --name "website" -p 80:8080 -d node-web-app 
+Go to localhost:80/
+```
+Tested docker-compose configuration by running:
+```bash
+docker-compose up -d --force-recreate
+Go to localhost:80/
+```
+Also, tested both configuration by manually running Docker-Testing workflows
 
