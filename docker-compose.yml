@@ -3,6 +3,15 @@ version: '3'
 services:
   nodejs:
     #fill out the configuration here
+    build:
+      context: .
+      dockerfile: Dockerfile
+
+    image: nodejs
+    container_name: P4Web
+    ports:
+      - "80:8080"              # Why it doesnt work for port 80 but 80:8080
+    restart: unless-stopped
     networks:
       - app-network
   
@@ -28,7 +37,7 @@ volumes:
     driver_opts:
       type: none
       #fill out your absolute path to your folder here
-      device: /absolute/path/to/web/template/folder
+      device: /Users/uyennguyen/388T/Web/cmsc389T-web-template
       o: bind
 
 networks:
