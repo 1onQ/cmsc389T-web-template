@@ -10,7 +10,7 @@ services:
     image: nodejs
     container_name: P4Web
     ports:
-      - "80:8080"              # Why it doesnt work for port 80 but 80:8080
+      - "80:8080"
     restart: unless-stopped
     networks:
       - app-network
