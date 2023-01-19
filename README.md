@@ -26,3 +26,5 @@ Go to localhost:80/
 ```
 Also, tested both configurations by manually running the Docker-Testing workflows
 
+## Part 3: Deploying Website To TerpConnect
+
