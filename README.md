@@ -24,5 +24,5 @@ Tested docker-compose configuration by running:
 docker-compose up -d --force-recreate
 Go to localhost:80/
 ```
-Also, tested both configuration by manually running Docker-Testing workflows
+Also, tested both configurations by manually running the Docker-Testing workflows
 
